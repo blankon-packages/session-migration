@@ -1,0 +1,38 @@
+session-migration (0.2.2+blankon1) tambora; urgency=low
+
+  * Upload to tambora 
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 31 May 2015 17:21:24 +0700
+
+session-migration (0.2.2) vivid; urgency=medium
+
+  [ Justin McPherson ]
+  * Fix spelling in doc
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 15 Apr 2015 12:37:15 +0200
+
+session-migration (0.2.1) trusty; urgency=low
+
+  [ Didier Roche ]
+  * add more info to the manpage
+
+  [ Iain Lane ]
+  * Add an upstart user session script, so we can run session-migration under
+    more types of session.
+
+ -- Iain Lane <iain.lane@canonical.com>  Thu, 09 Jan 2014 11:27:26 +0000
+
+session-migration (0.2) quantal; urgency=low
+
+  * dh_migrations adds a dependency using ${misc:Depends} on the packages
+    using a migration
+  * add a second binary packages for test and making additional checks
+  * fix a typo in the man
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 19 Jul 2012 16:50:49 +0200
+
+session-migration (0.1) quantal; urgency=low
+
+  * Initial release
+
+ -- Didier Roche <didrocks@ubuntu.com>  Thu, 12 Jul 2012 18:41:19 +0200
